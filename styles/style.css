@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+}
+
+.offer {
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    margin: 120px 0 80px 0;
+}
+
+.logo {
+    display: inline-block;
+    margin: 0 100px 122px 100px;
+    text-align: center;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 48px;
+}
