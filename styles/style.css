@@ -1,5 +1,12 @@
+@import url("./fonts.css");
+
 * {
     margin: 0;
+    box-sizing: border-box;
+}
+
+.container-advantages {
+    max-width: 1440px;
 }
 
 .offer {
@@ -7,16 +14,68 @@
     font-weight: 500;
     font-size: 40px;
     margin: 120px 0 80px 0;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    line-height: 47px;
 }
 
-.logo {
-    display: inline-block;
-    margin: 0 100px 122px 100px;
+.container-logo {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
     text-align: center;
 }
 
-.text {
+.logo {
+    font-family: 'Roboto', serif;
+    font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    margin-top: 48px;
+    line-height: 28px;
 }
+
+footer {
+    background-color: #10367C;
+    width: 1440px;
+    height: 630px;
+}
+
+.container-footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 120px;
+}
+
+.footer.first {
+    padding-left: 100px;
+}
+
+.footer {
+    width: 33.3333%;
+    padding-top: 120px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+.footer-header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.footer-text {
+    margin: 60px 1080px 120px 100px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
