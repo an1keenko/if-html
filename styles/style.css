@@ -6,6 +6,7 @@
 }
 
 .container-advantages {
+    margin: 0 auto;
     max-width: 1440px;
 }
 
@@ -21,8 +22,7 @@
 
 .container-logo {
     display: flex;
-    gap: 100px;
-    justify-content: center;
+    justify-content: space-around;
     text-align: center;
 }
 
@@ -35,9 +35,12 @@
 }
 
 footer {
-    background-color: #10367C;
+    margin: 0 auto;
     width: 1440px;
-    height: 630px;
+}
+
+.footer-background {
+    background-color: #10367C;
 }
 
 .container-footer {
@@ -70,7 +73,7 @@ footer {
 }
 
 .footer-text {
-    margin: 60px 1080px 120px 100px;
+    padding: 60px 1080px 120px 100px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
