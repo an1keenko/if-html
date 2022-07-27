@@ -7,58 +7,100 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Моя первая страница</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="icon" href="./images/favicons/favicon.ico">
 </head>
 <body>
+<!-- Начало html дз из 6 задания -->
+<div class="container-top">
+    <div class="background-top">
+        <div class="header-top">
+            <div class="header-section">
+                <img src="./images/icons/logo_trip.png" alt="Logotype">
+            </div>
+            <div class="header-section">
+                <div class="header-item-one"><a href="#" class="header-text-top line-top">Stays</a></div>
+                <div class="header-item-one"><a href="#" class="header-text-top">Attractions</a></div>
+                <div class="header-item-two"><img src="./images/icons/night.png" alt="Night"></div>
+                <div class="header-item-two"><img src="./images/icons/account.png" alt="Account"></div>
+            </div>
+        </div>
+        <div class="body-top">
+            <p class="body-text-top">Discover stays <br> to live, work or just relax</p>
+            <div class="search-text">
+                <p>Your destination or hotel name</p>
+                <p>Check-in — Check-out</p>
+            </div>
+            <div class="form-top">
+                <form class="form-top">
+                    <label for="place"></label>
+                    <input class="place-top text-form" value="New York" id="place" type="text" name="place">
+                    <label for="date"></label>
+                    <input class="date-top text-form" value="Tue 15 Sept — Sat 19 Sept" id="date" type="text"
+                           name="date">
+                    <label for="people"></label>
+                    <input class="people-top text-form" value="2 Adults — 0 Children — 1 Room" id="people"
+                           name="people">
+                    <button class="search-top">Search</button>
+                </form>
+            </div>
+            <div class="bottom-images">
+                <img src="./images/icons/google.png" alt="Google">
+                <img src="./images/icons/apple.png" alt="Apple">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Конец html дз из 6 задания -->
 <div class="container-advantages">
     <div class="offer">
         <p>What do we offer</p>
-        <img class="highlight" src="./images/highlight.png" alt="highlight">
+        <div class="line-offer"></div>
     </div>
     <div class="container-logo">
-        <div class="logo">
-            <img src="./images/Headset.png" alt="headset">
-            <p class="text">Support 24/7</p>
+        <div class="logo headset">
+            <img src="./images/Headset.png" alt="Headset">
+            <p class="text-advantages">Support 24/7</p>
         </div>
         <div class="logo">
-            <img src="./images/Forum.png" alt="forum">
-            <p>Communicate directly</p>
+            <img src="./images/Forum.png" alt="Forum">
+            <p class="text-advantages">Communicate directly</p>
         </div>
         <div class="logo">
-            <img src="./images/Devices.png" alt="devices">
-            <p>Book online</p>
+            <img src="./images/Devices.png" alt="Devices">
+            <p class="text-advantages">Book online</p>
         </div>
-        <div class="logo">
+        <div class="logo thumb">
             <img src="./images/Thumb.png" alt="Thumb">
-            <p>Real guest reviews</p>
+            <p class="text-advantages">Real guest reviews</p>
         </div>
     </div>
 </div>
 <footer>
     <div class="footer-background">
-    <div class="container-footer">
-        <div class="footer first">
-            <p class="footer-header">About</p>
-            <p>How Triphouse works</p>
-            <p>Careers</p>
-            <p>Privacy</p>
-            <p>Terms</p>
+        <div class="container-footer">
+            <div class="footer footer-first">
+                <p class="footer-header">About</p>
+                <p>How Triphouse works</p>
+                <p>Careers</p>
+                <p>Privacy</p>
+                <p>Terms</p>
+            </div>
+            <div class="footer footer-second">
+                <p class="footer-header">Property types</p>
+                <p>Guest houses</p>
+                <p>Hotels</p>
+                <p>Apartments</p>
+                <p>Villas</p>
+                <p>Holiday homes</p>
+                <p>Hostels</p>
+            </div>
+            <div class="footer footer-third">
+                <p class="footer-header">Support</p>
+                <p>Contact Customer Service</p>
+                <p>FAQ</p>
+            </div>
         </div>
-        <div class="footer">
-            <p class="footer-header">Property types</p>
-            <p>Guest houses</p>
-            <p>Hotels</p>
-            <p>Apartments</p>
-            <p>Villas</p>
-            <p>Holiday homes</p>
-            <p>Hostels</p>
-        </div>
-        <div class="footer">
-            <p class="footer-header">Support</p>
-            <p>Contact Customer Service</p>
-            <p>FAQ</p>
-        </div>
-    </div>
-    <p class="footer-text">© 2020 Triphouse, Inc. All rights reserved</p>
+        <p class="footer-text">© 2020 Triphouse, Inc. All rights reserved</p>
     </div>
 </footer>
 </body>
